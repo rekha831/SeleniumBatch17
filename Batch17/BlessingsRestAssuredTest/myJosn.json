@@ -1,0 +1,11 @@
+{
+    "firstname" : "anamika",
+    "lastname" : "naaa",
+    "totalprice" : 5000,
+    "depositpaid" : true,
+    "bookingdates" : {
+        "checkin" : "2021-07-29",
+        "checkout" : "2021-07-30"
+    },
+    "additionalneeds" : "dinner"
+}
