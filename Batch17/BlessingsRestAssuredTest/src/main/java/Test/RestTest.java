@@ -44,6 +44,7 @@ public class RestTest {
 
 //Put
 		System.out.println("put method........................");
+		System.out.println("put method............testtest............");
 		String tokentrue = "token=" + token;
 		System.out.println(tokentrue);
 		given().body(Payloads.putApiBody()).header("Content-Type", "application/json")
