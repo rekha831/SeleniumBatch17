@@ -44,11 +44,13 @@ public class RestTest {
 
 //Put
 		System.out.println("put method........................");
+		System.out.println("testing merge  and PR........");
 		String tokentrue = "token=" + token;
 		System.out.println(tokentrue);
 		given().body(Payloads.putApiBody()).header("Content-Type", "application/json")
 				.header("Accept", "application/json").header("Cookie", tokentrue).when().put("/booking/" + bookingid)
 				.then().log().all().assertThat().statusCode(200);
+		
 
 	}
 
